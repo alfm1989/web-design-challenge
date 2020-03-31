@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Components</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style_hw.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+  <header class="navbar navbar-expand-lg bg-weather margin-bottom-50"> 
+    <div>
+      <figure class="box">Lattitude</figure>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Plots
+          </a>
+          <div class="dropdown-menu link" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Max Temperature</a>
+            <a class="dropdown-item" href="#">Humidity</a>
+            <a class="dropdown-item" href="#">Cloudiness</a>
+            <a class="dropdown-item" href="#">Wind Speed</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link" href="#">Comparisons</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link" href="#">Data</a>
+        </li>          
+      </ul>
+    </div>
+  </header>
+  
+  <div class="container bg-container">
+    <!-- First Row -->
+    <div class="row">
+      <!-- First of two columns -->
+      <div class="col-md-6">
+        <!-- <h1>I'm a size 6 column. I take up half a 12 column row</h1> -->
+        <div class="box-1">
+          <section id="summary-title">
+            <h2 class="h2-title">
+              Summary: Lattitude
+            </h2>
+          </section>
+          <hr class="my-4">
+          <section>
+            <section id="default-image">
+              <img id="bio-image" src="https://github.com/alfm1989/web-design-challenge/blob/master/Latitude%20vs%20Max%20Temperature.png?raw=true">
+            </section>
+
+          </section>
+        </div>
+      </div>
+      <!-- Second of two columns -->
+      <div class="col-md-6">
+        <div class="box-2">
+          <h1>
+            "I'm a size 6 column. I take up half a 12 column row"
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>   
+</body>
+
+</html>
+

@@ -1,0 +1,50 @@
+/*
+ * Relative Position: sets boxes relative to its original location
+ * (i.e. below or left of where the element would normally be)
+ */
+
+ .bg-weather {
+  background-color: white;
+}
+
+.link{
+  color:black;
+}
+
+.box {
+  width: 30px;
+  height: 10px;
+  background: white;
+  margin-right: 800px;
+ }
+
+ .bg-container{
+  background-color: lightgrey;
+ }
+
+ body {
+  background-color: lightgrey;
+}
+
+.box-1 {
+  background: white;
+  height: 400px;
+  margin-left: 5px;
+  margin-bottom:20px;
+ }
+
+ .box-2 {
+  height: 300px;
+  background: white;
+  margin-right:5px;
+  margin-top:20px;
+ }
+
+ .margin-bottom-50{
+  margin-bottom: 50px;
+ }
+
+ .h2-title{
+  color: turquoise;
+  font-weight:bold;
+ }
